@@ -378,7 +378,7 @@ sub remove_inputmap {
   return $self->_remove($xstype, $self->{input_section}, $self->{input_lookup});
 }
 
-=head2 remove_inputmap
+=head2 remove_outputmap
 
 Removes an C<OUTPUT> entry from the typemap.
 
